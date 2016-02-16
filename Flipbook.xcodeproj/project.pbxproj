@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4EF49BA1C73C5A700F83F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EF49B91C73C5A700F83F23 /* AppDelegate.swift */; };
+		A4EF49BC1C73C5A700F83F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EF49BB1C73C5A700F83F23 /* ViewController.swift */; };
+		A4EF49BF1C73C5A700F83F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EF49BD1C73C5A700F83F23 /* Main.storyboard */; };
+		A4EF49C11C73C5A700F83F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EF49C01C73C5A700F83F23 /* Assets.xcassets */; };
+		A4EF49C41C73C5A700F83F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EF49C21C73C5A700F83F23 /* LaunchScreen.storyboard */; };
+		A4EF49CF1C73C5A700F83F23 /* FlipbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EF49CE1C73C5A700F83F23 /* FlipbookTests.swift */; };
+		A4EF49DA1C73C5A700F83F23 /* FlipbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EF49D91C73C5A700F83F23 /* FlipbookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4EF49CB1C73C5A700F83F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4EF49AE1C73C5A700F83F23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EF49B51C73C5A700F83F23;
+			remoteInfo = Flipbook;
+		};
+		A4EF49D61C73C5A700F83F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4EF49AE1C73C5A700F83F23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EF49B51C73C5A700F83F23;
+			remoteInfo = Flipbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4EF49B61C73C5A700F83F23 /* Flipbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EF49B91C73C5A700F83F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4EF49BB1C73C5A700F83F23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4EF49BE1C73C5A700F83F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4EF49C01C73C5A700F83F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4EF49C31C73C5A700F83F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4EF49C51C73C5A700F83F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EF49CA1C73C5A700F83F23 /* FlipbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EF49CE1C73C5A700F83F23 /* FlipbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipbookTests.swift; sourceTree = "<group>"; };
+		A4EF49D01C73C5A700F83F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EF49D51C73C5A700F83F23 /* FlipbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EF49D91C73C5A700F83F23 /* FlipbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipbookUITests.swift; sourceTree = "<group>"; };
+		A4EF49DB1C73C5A700F83F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4EF49B31C73C5A700F83F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EF49C71C73C5A700F83F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EF49D21C73C5A700F83F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4EF49AD1C73C5A700F83F23 = {
+			isa = PBXGroup;
+			children = (
+				A4EF49B81C73C5A700F83F23 /* Flipbook */,
+				A4EF49CD1C73C5A700F83F23 /* FlipbookTests */,
+				A4EF49D81C73C5A700F83F23 /* FlipbookUITests */,
+				A4EF49B71C73C5A700F83F23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4EF49B71C73C5A700F83F23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4EF49B61C73C5A700F83F23 /* Flipbook.app */,
+				A4EF49CA1C73C5A700F83F23 /* FlipbookTests.xctest */,
+				A4EF49D51C73C5A700F83F23 /* FlipbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4EF49B81C73C5A700F83F23 /* Flipbook */ = {
+			isa = PBXGroup;
+			children = (
+				A4EF49B91C73C5A700F83F23 /* AppDelegate.swift */,
+				A4EF49BB1C73C5A700F83F23 /* ViewController.swift */,
+				A4EF49BD1C73C5A700F83F23 /* Main.storyboard */,
+				A4EF49C01C73C5A700F83F23 /* Assets.xcassets */,
+				A4EF49C21C73C5A700F83F23 /* LaunchScreen.storyboard */,
+				A4EF49C51C73C5A700F83F23 /* Info.plist */,
+			);
+			path = Flipbook;
+			sourceTree = "<group>";
+		};
+		A4EF49CD1C73C5A700F83F23 /* FlipbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4EF49CE1C73C5A700F83F23 /* FlipbookTests.swift */,
+				A4EF49D01C73C5A700F83F23 /* Info.plist */,
+			);
+			path = FlipbookTests;
+			sourceTree = "<group>";
+		};
+		A4EF49D81C73C5A700F83F23 /* FlipbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4EF49D91C73C5A700F83F23 /* FlipbookUITests.swift */,
+				A4EF49DB1C73C5A700F83F23 /* Info.plist */,
+			);
+			path = FlipbookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4EF49B51C73C5A700F83F23 /* Flipbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EF49DE1C73C5A700F83F23 /* Build configuration list for PBXNativeTarget "Flipbook" */;
+			buildPhases = (
+				A4EF49B21C73C5A700F83F23 /* Sources */,
+				A4EF49B31C73C5A700F83F23 /* Frameworks */,
+				A4EF49B41C73C5A700F83F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flipbook;
+			productName = Flipbook;
+			productReference = A4EF49B61C73C5A700F83F23 /* Flipbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4EF49C91C73C5A700F83F23 /* FlipbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EF49E11C73C5A700F83F23 /* Build configuration list for PBXNativeTarget "FlipbookTests" */;
+			buildPhases = (
+				A4EF49C61C73C5A700F83F23 /* Sources */,
+				A4EF49C71C73C5A700F83F23 /* Frameworks */,
+				A4EF49C81C73C5A700F83F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4EF49CC1C73C5A700F83F23 /* PBXTargetDependency */,
+			);
+			name = FlipbookTests;
+			productName = FlipbookTests;
+			productReference = A4EF49CA1C73C5A700F83F23 /* FlipbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4EF49D41C73C5A700F83F23 /* FlipbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EF49E41C73C5A700F83F23 /* Build configuration list for PBXNativeTarget "FlipbookUITests" */;
+			buildPhases = (
+				A4EF49D11C73C5A700F83F23 /* Sources */,
+				A4EF49D21C73C5A700F83F23 /* Frameworks */,
+				A4EF49D31C73C5A700F83F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4EF49D71C73C5A700F83F23 /* PBXTargetDependency */,
+			);
+			name = FlipbookUITests;
+			productName = FlipbookUITests;
+			productReference = A4EF49D51C73C5A700F83F23 /* FlipbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4EF49AE1C73C5A700F83F23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Adrian Ordorica";
+				TargetAttributes = {
+					A4EF49B51C73C5A700F83F23 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6RTKLPC64B;
+					};
+					A4EF49C91C73C5A700F83F23 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6RTKLPC64B;
+						TestTargetID = A4EF49B51C73C5A700F83F23;
+					};
+					A4EF49D41C73C5A700F83F23 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6RTKLPC64B;
+						TestTargetID = A4EF49B51C73C5A700F83F23;
+					};
+				};
+			};
+			buildConfigurationList = A4EF49B11C73C5A700F83F23 /* Build configuration list for PBXProject "Flipbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4EF49AD1C73C5A700F83F23;
+			productRefGroup = A4EF49B71C73C5A700F83F23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4EF49B51C73C5A700F83F23 /* Flipbook */,
+				A4EF49C91C73C5A700F83F23 /* FlipbookTests */,
+				A4EF49D41C73C5A700F83F23 /* FlipbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4EF49B41C73C5A700F83F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EF49C41C73C5A700F83F23 /* LaunchScreen.storyboard in Resources */,
+				A4EF49C11C73C5A700F83F23 /* Assets.xcassets in Resources */,
+				A4EF49BF1C73C5A700F83F23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EF49C81C73C5A700F83F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EF49D31C73C5A700F83F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4EF49B21C73C5A700F83F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EF49BC1C73C5A700F83F23 /* ViewController.swift in Sources */,
+				A4EF49BA1C73C5A700F83F23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EF49C61C73C5A700F83F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EF49CF1C73C5A700F83F23 /* FlipbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EF49D11C73C5A700F83F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EF49DA1C73C5A700F83F23 /* FlipbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4EF49CC1C73C5A700F83F23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4EF49B51C73C5A700F83F23 /* Flipbook */;
+			targetProxy = A4EF49CB1C73C5A700F83F23 /* PBXContainerItemProxy */;
+		};
+		A4EF49D71C73C5A700F83F23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4EF49B51C73C5A700F83F23 /* Flipbook */;
+			targetProxy = A4EF49D61C73C5A700F83F23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4EF49BD1C73C5A700F83F23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EF49BE1C73C5A700F83F23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4EF49C21C73C5A700F83F23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EF49C31C73C5A700F83F23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4EF49DC1C73C5A700F83F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4EF49DD1C73C5A700F83F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4EF49DF1C73C5A700F83F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flipbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Faylibrary.Flipbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4EF49E01C73C5A700F83F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flipbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Faylibrary.Flipbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4EF49E21C73C5A700F83F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlipbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Faylibrary.FlipbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipbook.app/Flipbook";
+			};
+			name = Debug;
+		};
+		A4EF49E31C73C5A700F83F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlipbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Faylibrary.FlipbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipbook.app/Flipbook";
+			};
+			name = Release;
+		};
+		A4EF49E51C73C5A700F83F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlipbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Faylibrary.FlipbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Flipbook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4EF49E61C73C5A700F83F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlipbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Faylibrary.FlipbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Flipbook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4EF49B11C73C5A700F83F23 /* Build configuration list for PBXProject "Flipbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EF49DC1C73C5A700F83F23 /* Debug */,
+				A4EF49DD1C73C5A700F83F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EF49DE1C73C5A700F83F23 /* Build configuration list for PBXNativeTarget "Flipbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EF49DF1C73C5A700F83F23 /* Debug */,
+				A4EF49E01C73C5A700F83F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4EF49E11C73C5A700F83F23 /* Build configuration list for PBXNativeTarget "FlipbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EF49E21C73C5A700F83F23 /* Debug */,
+				A4EF49E31C73C5A700F83F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4EF49E41C73C5A700F83F23 /* Build configuration list for PBXNativeTarget "FlipbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EF49E51C73C5A700F83F23 /* Debug */,
+				A4EF49E61C73C5A700F83F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4EF49AE1C73C5A700F83F23 /* Project object */;
+}
